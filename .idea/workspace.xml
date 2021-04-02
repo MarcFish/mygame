@@ -20,7 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9c536550-c1f2-4546-aa7e-4b821e80b9a2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/analog_clock.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/escape_the_dragon.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/escape_the_dragon/background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/escape_the_dragon/caveman.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/escape_the_dragon/dragon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/escape_the_dragon/flame.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,14 +52,22 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/analog_clock.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/escape_the_dragon.py" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.analog_clock">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\project\mygame\res\escape_the_dragon" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.escape_the_dragon">
     <configuration name="analog_clock" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="mygame" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="D:\anaconda3\envs\mygame\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="false" />
@@ -93,9 +105,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="escape_the_dragon" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="mygame" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="D:\anaconda3\envs\mygame\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/escape_the_dragon.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="piegame" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="C:\ProgramData\Anaconda3\envs\mygame\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="false" />
@@ -116,6 +153,7 @@
       <item itemvalue="Python.piegame" />
       <item itemvalue="Python.bomb_catcher" />
       <item itemvalue="Python.analog_clock" />
+      <item itemvalue="Python.escape_the_dragon" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -131,7 +169,10 @@
       <workItem from="1616977626589" duration="4106000" />
       <workItem from="1617005438989" duration="594000" />
       <workItem from="1617086116530" duration="1420000" />
-      <workItem from="1617153719595" duration="2640000" />
+      <workItem from="1617153719595" duration="7705000" />
+      <workItem from="1617239100188" duration="2856000" />
+      <workItem from="1617322371165" duration="2405000" />
+      <workItem from="1617325580549" duration="6239000" />
     </task>
     <servers />
   </component>
