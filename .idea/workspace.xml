@@ -20,12 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9c536550-c1f2-4546-aa7e-4b821e80b9a2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/escape_the_dragon.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/escape_the_dragon/background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/escape_the_dragon/caveman.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/escape_the_dragon/dragon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/escape_the_dragon/flame.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/zombie_mob/farmer walk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/zombie_mob/health.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/zombie_mob/zombie walk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zombie_mob.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/escape_the_dragon.py" beforeDir="false" afterPath="$PROJECT_DIR$/escape_the_dragon.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,15 +54,16 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/escape_the_dragon.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/zombie_mob.py" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\project\mygame\res\zombie_mob" />
       <recent name="E:\project\mygame\res\escape_the_dragon" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.escape_the_dragon">
+  <component name="RunManager" selected="Python.zombie_mob">
     <configuration name="analog_clock" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="mygame" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -149,11 +152,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="zombie_mob" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="mygame" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="D:\anaconda3\envs\mygame\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/zombie_mob.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.piegame" />
       <item itemvalue="Python.bomb_catcher" />
       <item itemvalue="Python.analog_clock" />
       <item itemvalue="Python.escape_the_dragon" />
+      <item itemvalue="Python.zombie_mob" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -173,6 +199,8 @@
       <workItem from="1617239100188" duration="2856000" />
       <workItem from="1617322371165" duration="2405000" />
       <workItem from="1617325580549" duration="6239000" />
+      <workItem from="1617412934431" duration="7043000" />
+      <workItem from="1617451296086" duration="130000" />
     </task>
     <servers />
   </component>

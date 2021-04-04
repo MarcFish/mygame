@@ -124,7 +124,7 @@ game_over = False
 you_win = False
 player_jumping = False
 jump_vel = 0.0
-player_start_y = player.Y
+player_start_y = player.y
 
 # repeating loop
 while True:
@@ -143,35 +143,35 @@ while True:
 
     # update the arrow
     if not game_over:
-        arrow.X -= arrow_vel
-        if arrow.X < -40: reset_arrow()
+        arrow.x -= arrow_vel
+        if arrow.x < -40: reset_arrow()
 
     # did arrow hit player?
     if pygame.sprite.collide_rect(arrow, player):
         reset_arrow()
-        player.X -= 10
+        player.x -= 10
 
     # did arrow hit dragon?
     if pygame.sprite.collide_rect(arrow, dragon):
         reset_arrow()
-        dragon.X -= 10
+        dragon.x -= 10
 
     # did dragon eat the player?
     if pygame.sprite.collide_rect(player, dragon):
         game_over = True
 
     # did the dragon get defeated?
-    if dragon.X < -100:
+    if dragon.x < -100:
         you_win = True
         game_over = True
 
     # is the player jumping?
     if player_jumping:
-        player.Y += jump_vel
+        player.y += jump_vel
         jump_vel += 0.5
-        if player.Y > player_start_y:
+        if player.y > player_start_y:
             player_jumping = False
-            player.Y = player_start_y
+            player.y = player_start_y
             jump_vel = 0.0
 
     # draw the background
@@ -189,9 +189,9 @@ while True:
     if game_over:
         print_text(font, 360, 100, "G A M E   O V E R")
         if you_win:
-            print_text(font, 330, 130, "YOU BEAT THE DRAGON!")
+            print_text(font, 330, 130, "yOU BEAT THE DRAGON!")
         else:
-            print_text(font, 330, 130, "THE DRAGON GOT YOU!")
+            print_text(font, 330, 130, "THE DRAGON GOT yOU!")
 
     pygame.display.update()
 
