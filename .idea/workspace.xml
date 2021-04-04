@@ -20,14 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9c536550-c1f2-4546-aa7e-4b821e80b9a2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/res/zombie_mob/farmer walk.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/zombie_mob/health.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/zombie_mob/zombie walk.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zombie_mob.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/escape_the_dragon.py" beforeDir="false" afterPath="$PROJECT_DIR$/escape_the_dragon.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -201,6 +194,7 @@
       <workItem from="1617325580549" duration="6239000" />
       <workItem from="1617412934431" duration="7043000" />
       <workItem from="1617451296086" duration="130000" />
+      <workItem from="1617501090553" duration="1310000" />
     </task>
     <servers />
   </component>
